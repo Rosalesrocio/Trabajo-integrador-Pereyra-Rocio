@@ -1,0 +1,40 @@
+.lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+body{
+    background-color: rgb(43, 79, 110);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0%;
+    padding: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;  
+    margin-bottom: 20px;
+}
+input,button{
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size:1rem ;
+}
+
+.tarjeta{
+    background-color: #cd2fd3;
+    color: rgb(48, 3, 133);
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-radius: 8%;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
