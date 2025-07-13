@@ -6,7 +6,7 @@ const lista = document.getElementById("lista");
 
 const mostrarlista = () => {
     lista.innerHTML = items
-    .map((item)=> <div class="tarjeta"> $(item)</div>)
+    .map((item)=> `<div class="tarjeta"> ${item}</div>`)
     .join("");
     };
 
@@ -14,7 +14,7 @@ formulario.addEventListener("submit", (e) => {
     e.preventDefault();
     const texto = input.value.trim();
     if (texto === "") return;
-    
+
 items.push(texto);
 input.value = "";
 mostrarlista(); 
